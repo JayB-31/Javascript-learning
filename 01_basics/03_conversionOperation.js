@@ -20,6 +20,16 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" -> false
 // "jayraj" -> true
 
-let someNumber = 33
-let stringNumber = String(someNumber)
+// let someNumber = 33
+// let stringNumber = String(someNumber)
+// console.log(someNumber);
+// console.log(typeof stringNumber);
+
+
+
+// *******************Operations**************************
+
+let value = 3
+let NegValue = -value
 console.log(someNumber);
+console.log(typeof stringNumber);
