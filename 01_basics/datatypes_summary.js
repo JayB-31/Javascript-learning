@@ -26,15 +26,40 @@
 // Array, objects, Functions
 
 
-const heros = ["spiderman", "batman", "antman"];
-let myObject = {
-    name: "JAYRAJ",
-    age: 22,
+// const heros = ["spiderman", "batman", "antman"];
+// let myObject = {
+//     name: "JAYRAJ",
+//     age: 22,
+// }
+
+
+// const myFunction = function(){
+//     console.log("hello world");
+// }
+
+// console.log(typeof scoreValue);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Two types of memory 1. Stack(primitive) 2. Heap(Non-primitive)
+
+let myYoutubeName = "JayB"
+
+let anotherName = "myYoutubeName"
+anotherName = "JayB123"
+
+console.log(myYoutubeName);
+console.log(anotherName)
+
+let userOne = {
+    email: "jaybhatia@gmail.com",
+    upi: "user@ybl"
 }
 
+let userTwo = userOne
 
-const myFunction = function(){
-    console.log("hello world");
-}
+userTwo.email = "jayraj@google.com"
 
-console.log(typeof scoreValue);
+console.log(userOne.email);
+console.log(userTwo.email);
