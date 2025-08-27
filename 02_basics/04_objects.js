@@ -1,3 +1,5 @@
+const { jsx } = require("react/jsx-runtime")
+
 // const tinderUser = new Object()
 const tinderUser = {}
 
@@ -43,11 +45,40 @@ const users = [
     },
 ]
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // in company if you want value and its not there you can check it with this method.
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // in company if you want value and its not there you can check it with this method.
+
+// ********************************----------&&&&&&&&&&&&&&&&&&
+// object-destructring and JSON API 
+
+const course = {
+    coursename: "js",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor()
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// API
+
+// {
+//     "name": "jayraj",
+//     "courseName": "JS_inhindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
