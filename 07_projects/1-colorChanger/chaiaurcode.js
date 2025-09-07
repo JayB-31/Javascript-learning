@@ -4,7 +4,6 @@ const body = document.querySelector("body");
 buttons.forEach(function(button) {
   button.addEventListener('click', function(e) {
     console.log(e.target);
-
     switch (e.target.id) {
       case 'grey':
         body.style.backgroundColor = 'grey';
